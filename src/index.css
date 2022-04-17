@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+pre {
+  font-size: 7em;
+}
+.tick line {
+  stroke: #c0c0bb;
+}
+.tick text {
+  fill: #635f5d;
+}
+.mark {
+  fill: #137b80;
+}
+.axis-label {
+  font-size: 2.2em;
+  fill: #635f5d;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
