@@ -7,23 +7,41 @@ body {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 pre {
   font-size: 7em;
 }
-.tick line {
-  stroke: #c0c0bb;
+.marks .land {
+  fill: #ececec;
 }
+.marks .sphere {
+  fill: #fbfbfb;
+}
+.marks .interiors {
+  fill: none;
+  stroke: #d9dfe0;
+}
+.marks .graticules,
+.tick line {
+  fill: none;
+  stroke: #ececec;
+}
+circle {
+  fill: #137b80;
+  opacity: 0.3;
+}
+
 .tick text {
   fill: #635f5d;
+  font-size: 0.5em;
 }
 .mark {
   fill: #137b80;
 }
 .axis-label {
-  font-size: 2.2em;
+  font-size: 0.5em;
   fill: #635f5d;
 }
 

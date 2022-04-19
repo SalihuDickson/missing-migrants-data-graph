@@ -1,5 +1,6 @@
 {
-  "name": "missing-migrant-graph-data",
+  "homepage": "http://SalihuDickson.github.io/missing-migrants-data-viz",
+  "name": "missing-migrants-data-viz",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -7,14 +8,18 @@
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
     "d3": "^7.4.4",
+    "gh-pages": "^3.2.3",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-dropdown": "^1.9.2",
     "react-scripts": "5.0.1",
+    "topojson": "^3.0.2",
     "web-vitals": "^2.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "depliy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

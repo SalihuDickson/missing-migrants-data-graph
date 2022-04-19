@@ -1,4 +1,4 @@
-const AxisBottom = ({ xScale, innerHeight, tickFormat, tickOffset = 3 }) =>
+const AxisBottom = ({ xScale, innerHeight, tickFormat, tickOffset = 2 }) =>
   xScale.ticks().map((tickValue) => (
     <g
       className="tick"
