@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/missing-migrants-data-viz/static/css/main.166b8b9f.css",
+    "main.js": "/missing-migrants-data-viz/static/js/main.3cec7f63.js",
+    "index.html": "/missing-migrants-data-viz/index.html",
+    "main.166b8b9f.css.map": "/missing-migrants-data-viz/static/css/main.166b8b9f.css.map",
+    "main.3cec7f63.js.map": "/missing-migrants-data-viz/static/js/main.3cec7f63.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.166b8b9f.css",
+    "static/js/main.3cec7f63.js"
+  ]
+}
